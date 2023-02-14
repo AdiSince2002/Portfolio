@@ -8,7 +8,7 @@ class mid extends Component {
     return ( 
       <div className="mid-container">
           <div className="mask">
-              <img classname="BGIMG" width="100%" src={portfolioImg} alt="my-img" />
+              <img className="BGIMG" width="100%" src={portfolioImg} alt="my-img" />
           </div>
           <div className="content">
               <p>{this.props.text}</p>
